@@ -1,0 +1,20 @@
+# Ignore target directories
+/target
+/macro_function_test_macros/target
+/macro_function_test_macros/macro_function/target
+/macro_function_test_macros/macro_function/proc_macros/target
+
+
+# Ignore any rustrover/intelij ide junk.
+# You may want to add .vscode if you use that
+/.idea
+/macro_function_test_macros/.idea
+/macro_function_test_macros/macro_function/.idea
+/macro_function_test_macros/macro_function/proc_macros/.idea
+
+#Ignore Cargo.lock files
+/Cargo.lock
+/macro_function_test_macros/Cargo.lock
+/macro_function_test_macros/macro_function/Cargo.lock
+/macro_function_test_macros/macro_function/proc_macros/Cargo.lock
+
